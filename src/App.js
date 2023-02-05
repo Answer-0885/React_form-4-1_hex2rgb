@@ -20,7 +20,7 @@ function App(props) {
   return (
     <div
       className="App"
-      style={{ background: valid ?${valid}: "#ff0000" }}
+      style={{ background: valid ? `${valid}` : "#ff0000" }}
     >
       <Converter
       valid={valid}
